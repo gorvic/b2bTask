@@ -3,7 +3,6 @@
 namespace src;
 
 use DataProviders\CurrencyRates;
-use JetBrains\PhpStorm\NoReturn;
 use Model\IncomingData;
 use Exception;
 
@@ -41,7 +40,7 @@ class Core
      * @param array $errors
      * @return void
      */
-    #[NoReturn] private function makeErrorResponseAndFinish(array $errors): void
+    private function makeErrorResponseAndFinish(array $errors): void
     {
         $out = '<?xml version="1.0" encoding="UTF-8"?>\n';
         foreach ($errors as $error) {
@@ -67,7 +66,7 @@ class Core
             $parsed = simplexml_load_string(file_get_contents($post_data), 'SimpleXMLElement', LIBXML_NOCDATA);
             return new IncomingData($parsed);
         } else {
-            throw new Exception("Cannot incoming data.");
+            throw new Exception("Cannot obtain incoming data.");
         }
     }
 
