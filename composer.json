@@ -1,0 +1,22 @@
+{
+  "authors": [
+    {
+      "name": "Viktor",
+      "email": "gorvic.mail@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "repositories" : [
+    {"type": "composer", "url": "https://packagist.org/" }
+  ],
+
+  "require": {
+    "php": ">=8.3",
+    "ext-json": "*",
+    "ext-simplexml": "*"
+  }
+}

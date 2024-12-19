@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AvailRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<timeoutMilliseconds>25000</timeoutMilliseconds>
+	<source>
+		<languageCode>en</languageCode>
+	</source>
+	<optionsQuota>20</optionsQuota>
+	<ContinuationToken/>
+	<Configuration>
+		<UrlGeneric>http://interview.b2bholidays.com/</UrlGeneric>
+		<Parameters>
+			<Parameter password="XXXXXXXXXX" username="YYYYYYYYY" CompanyID="123456"/>
+		</Parameters>
+	</Configuration>
+	<SearchType>Multiple</SearchType>
+	<AllowedHotelCount>45</AllowedHotelCount>
+	<AllowedRoomCount>4</AllowedRoomCount>
+	<AllowedRoomGuestCount>9</AllowedRoomGuestCount>
+	<AllowedChildCountPerRoom>2</AllowedChildCountPerRoom>
+	<CancellationPolicies>true</CancellationPolicies>
+	<OnRequest>false</OnRequest>
+	<BusinessRules>CheaperAmount</BusinessRules>
+	<AvailDestinations>
+		<Destination type="HOT" code="39971881"/>
+		<Destination type="HOT" code="15258473"/>
+		<Destination type="HOT" code="39782527"/>
+		<Destination type="HOT" code="39677247"/>
+		<Destination type="HOT" code="39320683"/>
+		<Destination type="HOT" code="39714333"/>
+		<Destination type="HOT" code="39676472"/>
+	</AvailDestinations>
+	<StartDate>30/12/2024</StartDate>
+	<EndDate>07/01/2025</EndDate>
+	<Currency>USD</Currency>
+	<Nationality>US</Nationality>
+	<Markets>
+		<Market>UK</Market>
+		<Market>US</Market>
+		<Market>GB</Market>
+	</Markets>
+	<RoomCandidates>
+		<RoomCandidate id="0">
+			<Paxes>
+				<Pax age="24" id="1"/>
+			</Paxes>			
+		</RoomCandidate>			
+		<RoomCandidate id="1">
+			<Paxes>
+				<Pax age="24" id="1"/>
+				<Pax age="5" id="2"/>
+			</Paxes>			
+		</RoomCandidate>
+		<RoomCandidate id="2">
+			<Paxes>
+				<Pax age="24" id="1"/>
+				<Pax age="5" id="2"/>
+				<Pax age="2" id="3"/>
+				<Pax age="2" id="4"/>
+			</Paxes>			
+		</RoomCandidate>	
+		<RoomCandidate id="3">
+			<Paxes>
+				<Pax age="5" id="2"/>
+			</Paxes>			
+		</RoomCandidate>	
+	</RoomCandidates>
+	<Markup>3.2</Markup>
+</AvailRQ>

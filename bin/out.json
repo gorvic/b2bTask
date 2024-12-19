@@ -1,0 +1,100 @@
+[
+  {
+    "id": "A#1",
+    "hotelCodeSupplier": "39971881",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "USD",
+      "net": 132.42,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#2",
+    "hotelCodeSupplier": "15258473",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "EUR",
+      "net": 156.82,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#3",
+    "hotelCodeSupplier": "39782527",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "GBP",
+      "net": 132.42,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#4",
+    "hotelCodeSupplier": "39677247",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "EUR",
+      "net": 156.82,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#5",
+    "hotelCodeSupplier": "39320683",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "USD",
+      "net": 454.23,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#6",
+    "hotelCodeSupplier": "39714333",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "EUR",
+      "net": 351.07,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  },
+  {
+    "id": "A#7",
+    "hotelCodeSupplier": "39676472",
+    "market": "US",
+    "price": {
+      "minimumSellingPrice": null,
+      "currency": "GBP",
+      "net": 252.1,
+      "selling_price": null,
+      "selling_currency": null,
+      "markup": null,
+      "exchange_rate": null
+    }
+  }
+]
